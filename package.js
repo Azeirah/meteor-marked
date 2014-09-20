@@ -3,8 +3,8 @@
 Package.describe({
   summary: "A markdown parser and compiler. Built for speed.",
   version: "0.3.5",
-  name: "chuangbo:marked",
-  git: "https://github.com/chuangbo/meteor-marked.git"
+  name: "azeirah:marked",
+  git: "https://github.com/azeirah/meteor-marked.git"
 });
 
 Package.on_use(function (api) {

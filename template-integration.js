@@ -9,6 +9,6 @@ if (Package.templating) {
     if (view.templateContentBlock) {
       content = Blaze._toText(view.templateContentBlock, HTML.TEXTMODE.STRING);
     }
-    return HTML.Raw(marked(content));
+    return HTML.Raw(highlightBlock(marked(content)));
   }));
 }
